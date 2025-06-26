@@ -9,6 +9,7 @@ two countries starting from a specific date.
 - RESTful API with Swagger UI documentation
 - Date validation and formatting
 - Reactive programming support with WebFlux
+- It uses external API service: https://openholidaysapi.org
 
 ## Prerequisites
 
@@ -19,3 +20,9 @@ two countries starting from a specific date.
 
 To build and run the application, run:
 ```run.sh```
+
+## Usage
+To use this application, try for example: http://127.0.0.1:8080/compare-holidays?countryCode1=ES&countryCode2=PL&date=2025-01-01
+
+## Logs
+Logs are in logs/ directory
